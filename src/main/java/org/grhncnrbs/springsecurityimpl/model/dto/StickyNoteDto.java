@@ -1,9 +1,10 @@
-package org.grhncnrbs.springsecurityimpl.dto;
+package org.grhncnrbs.springsecurityimpl.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.grhncnrbs.springsecurityimpl.model.enums.StickyNoteStatus;
 
 import java.time.LocalDateTime;
 

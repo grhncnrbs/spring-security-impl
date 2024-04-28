@@ -1,14 +1,19 @@
 package org.grhncnrbs.springsecurityimpl.model.mapper;
+import org.grhncnrbs.springsecurityimpl.model.dto.AddNoteDto;
+import org.grhncnrbs.springsecurityimpl.model.dto.NoteDto;
+import org.grhncnrbs.springsecurityimpl.model.entity.Note;
 import org.mapstruct.Mapper;
+
+import java.util.List;
 
 @Mapper(componentModel = "spring")
 public interface NoteMapper {
 
-    NoteDTO toDTO(Note entity);
+    NoteDto toDTO(Note entity);
 
-    Note toEntity(NoteDTO dto);
+    Note toEntity(NoteDto dto);
 
-    List<NoteDTO> toDTOs(List<Note> entities);
+    List<NoteDto> toDTOs(List<Note> entities);
 
-    Note toEntity(AddNoteDTO dto);
+    Note toEntity(AddNoteDto dto);
 }

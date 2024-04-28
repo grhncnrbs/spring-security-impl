@@ -1,4 +1,4 @@
-package org.grhncnrbs.springsecurityimpl.dto;
+package org.grhncnrbs.springsecurityimpl.model.dto;
 
 
 import lombok.AllArgsConstructor;

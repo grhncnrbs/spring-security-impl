@@ -1,4 +1,4 @@
-package org.grhncnrbs.springsecurityimpl.service.implemantation;
+package org.grhncnrbs.springsecurityimpl.service.intf;
 
 import org.grhncnrbs.springsecurityimpl.model.dto.AddNoteDto;
 import org.grhncnrbs.springsecurityimpl.model.dto.NoteDto;
